@@ -1,0 +1,238 @@
+body {
+    background-color: yellow;
+}
+
+.board-container {
+    height: 21.5vh;
+    width: 100vh;
+    perspective: 1000px;
+}
+
+#easy {
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+}
+
+#medium {
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+}
+
+#hard {
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+}
+
+.board-container .row {
+    height: 100%;
+}
+
+.board-square {
+    border: 2px solid crimson;;
+    height: 25%;
+    width: 25%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.face-container {
+    background-color: black;
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    transition: 400ms;
+}
+
+
+.faceup, .facedown {
+    height: 50%;
+}
+
+.facedown {
+    background-color: lightGrey;
+}
+
+.faceup {
+    background-color: coral;
+
+}
+
+.flipped .face-container {
+    top: -100%;
+}
+
+.color-0 {
+    background-color: aqua;
+}
+
+.color-1 { 
+    background-color: bisque;
+}
+
+.color-2 { 
+    background-color: lightBlue;
+}
+
+.color-3 { 
+    background-color: red;
+}
+
+.color-4 {
+    background-color: white;
+}
+
+.color-5 {
+    background-color: #cdf7f6;
+}
+
+.color-6 {
+    background-color: #8fb8de;
+}
+
+.color-7 {
+    background-color: #9a94bc;
+}
+
+.color-8 {
+    background-color: #9b5094;
+}
+
+.color-9 {
+    background-color: #6a605c;
+}
+
+.color-10 {
+    background-color: #d8cfaf;
+}
+
+.color-11 {
+    background-color: #e6b89c;
+}
+
+.color-12 {
+    background-color: #3d9390;
+}
+
+.color-13 {
+    background-color: #f374ae;
+}
+
+.color-14 {
+    background-color: #32533d;
+}
+
+.color-15 {
+    background-color: #f1d302;
+}
+
+.color-16 {
+    background-color: #020100;
+}
+
+.color-17 {
+    background-color: #818479;
+}
+
+.color-18 {
+    background-color: #b5cbb7;
+}
+
+.color-19 {
+    background-color: #d2e4c4;
+}
+
+.color-20 {
+    background-color: #e4e9b2;
+}
+
+.color-21 {
+    background-color: #e7e08b;
+}
+
+.color-22 {
+    background-color: #011936;
+}
+
+.color-23 {
+    background-color: #465362
+}
+
+.color-24 {
+    background-color: #82a3a1;
+}
+
+.color-25 {
+    background-color: #9fc490;
+}
+
+.color-26 {
+    background-color: #c0dfa1;
+}
+
+.color-27 {
+    background-color: #df9a57;
+}
+
+.color-28 {
+    background-color: #fc7a57;
+}
+
+.color-29 {
+    background-color: #fcd757;
+}
+
+.color-30 {
+    background-color: #eefc57;
+}
+
+.color-31 {
+    background-color: #5e5b52;
+}
+
+.color-32 {
+    background-color: #faf3dd;
+}
+
+.color-33 {
+    background-color: #c8d5b9;
+}
+
+.color-34 {
+    background-color: #8fc0a9;
+}
+
+.color-35 {
+    background-color: #68b0ab;
+}
+
+.color-36 {
+    background-color: #4a7c59;
+}
+
+.color-37 {
+    background-color: #49c6e5;
+}
+
+.color-38 {
+    background-color: #54defd;
+}
+
+.color-39 {
+    background-color: #fffbfa;
+}
+
+.color-40 {
+    background-color: #00bd9d;
+}
+
+.color-41 {
+    background-color: #8bd7d2;
+}
+
+.color-42 {
+    background-color: #aeffd8;
+}
